@@ -110,19 +110,16 @@ const Map = () => {
     fillOpacity: 0.1,
   };
   const [showModal, setShowModal] = useState(false);
-
-  const showServiceModal = () => {
-    setShowModal(true);
-  };
+  const [clickedRegion, setClickedRegion] = useState();
 
   const hideServiceModal = () => {
     setShowModal(false);
   };
 
   const clickRegionItemHandler = (event) => {
-    console.log(event.target.id);
     setShowModal(true);
   };
+
   return (
     isLoaded && (
       <Fragment>

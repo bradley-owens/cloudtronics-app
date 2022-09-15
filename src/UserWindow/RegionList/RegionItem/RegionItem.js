@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment, useEffect } from "react";
 import styles from "./RegionItem.module.css";
 
 const RegionItem = (props) => {
