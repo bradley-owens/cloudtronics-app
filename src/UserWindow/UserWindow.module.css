@@ -1,0 +1,46 @@
+.container {
+  width: 25rem;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.48);
+  position: absolute;
+  left: 5rem;
+  top: 5rem;
+  background-color: hsl(0, 5%, 85%);
+}
+
+.tabs {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tab {
+  transition: 0.1s;
+}
+.tab:hover {
+  cursor: pointer;
+  font-weight: bolder;
+
+  transition: 0.3s;
+}
+
+.active {
+  color: rgb(99, 234, 255);
+  font-size: 1.5rem;
+}
+
+.active:hover {
+  color: 2px solid rgb(99, 234, 255);
+  font-weight: bolder;
+  transition: 0.3s;
+  cursor: pointer;
+}
