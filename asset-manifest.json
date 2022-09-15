@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cloudtronics-app/static/css/main.ff239b90.css",
+    "main.js": "/cloudtronics-app/static/js/main.1982c557.js",
+    "static/media/Repair.svg": "/cloudtronics-app/static/media/Repair.c3b7e2e477fa727eea5bcdcbeec87054.svg",
+    "static/media/Amps.svg": "/cloudtronics-app/static/media/Amps.15ff0faf6cde02105ff7bb5588d20435.svg",
+    "static/media/Pump.svg": "/cloudtronics-app/static/media/Pump.32a011468e146fe1ff13996e0a272cee.svg",
+    "static/media/Ozone.svg": "/cloudtronics-app/static/media/Ozone.e46591766466181248096852993112c4.svg",
+    "static/media/Cross.svg": "/cloudtronics-app/static/media/Cross.dae17e34dbdecc217fd9934914925eed.svg",
+    "static/media/Lamp.svg": "/cloudtronics-app/static/media/Lamp.b1d2f8db2ff0464cebb3b0db7496d26c.svg",
+    "static/media/Green.svg": "/cloudtronics-app/static/media/Green.0b46cdc202e38bb45501949e626a64c7.svg",
+    "static/media/Orange.svg": "/cloudtronics-app/static/media/Orange.87fe50d34d5aa77bbb1525893f038751.svg",
+    "static/media/Yellow.svg": "/cloudtronics-app/static/media/Yellow.312e427a0a134273b499c5a7164190c7.svg",
+    "static/media/Location.svg": "/cloudtronics-app/static/media/Location.784942fcee21c422b08f9776bedff2a4.svg",
+    "static/media/Guage.svg": "/cloudtronics-app/static/media/Guage.1dd8ed9fb98e5d39f92c7dd6f88e4006.svg",
+    "static/media/Tick.svg": "/cloudtronics-app/static/media/Tick.0e1efce6e5c3a493565d9c3f52f321f5.svg",
+    "static/media/Alert.svg": "/cloudtronics-app/static/media/Alert.55cf1f945c1cfe8a659c2aa455097153.svg",
+    "index.html": "/cloudtronics-app/index.html",
+    "main.ff239b90.css.map": "/cloudtronics-app/static/css/main.ff239b90.css.map",
+    "main.1982c557.js.map": "/cloudtronics-app/static/js/main.1982c557.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff239b90.css",
+    "static/js/main.1982c557.js"
+  ]
+}
