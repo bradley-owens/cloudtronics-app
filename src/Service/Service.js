@@ -13,7 +13,7 @@ import AmpIcon from "../Icons/Amps.svg";
 const Service = (props) => {
   return (
     <Modal onClose={props.onClose}>
-      <div className={styles.location}>Location</div>
+      <div className={styles.location}>Surry Hills</div>
       <div className={styles["flex-row"]}>
         <div className={styles["flex-column"]}>
           <div className={styles.section}>
