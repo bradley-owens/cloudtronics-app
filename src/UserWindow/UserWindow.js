@@ -36,11 +36,7 @@ const UserWindow = (props) => {
         <Overview markers={props.markers} status={props.status} />
       )}
       {activeRegion && (
-        <RegionList
-          markers={props.markers}
-          status={props.status}
-          onClick={props.onClick}
-        />
+        <RegionList markers={props.markers} status={props.status} />
       )}
     </div>
   );

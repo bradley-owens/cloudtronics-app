@@ -109,16 +109,6 @@ const Map = () => {
     strokeWeight: 0.1,
     fillOpacity: 0.1,
   };
-  const [showModal, setShowModal] = useState(false);
-  const [clickedRegion, setClickedRegion] = useState();
-
-  const hideServiceModal = () => {
-    setShowModal(false);
-  };
-
-  const clickRegionItemHandler = (event) => {
-    setShowModal(true);
-  };
 
   return (
     isLoaded && (
@@ -140,18 +130,13 @@ const Map = () => {
                 name={marker.name}
                 position={marker.position}
                 icon={
-                  !status &&
+                  !marker.status &&
                   "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
                 }
               ></Marker>
             );
           })}
-          <UserWindow
-            markers={allMarkers}
-            status={status}
-            onClick={clickRegionItemHandler}
-          />
-          {showModal && <Service onClose={hideServiceModal} />}
+          <UserWindow markers={allMarkers} status={status} />
         </GoogleMap>
       </Fragment>
     )
