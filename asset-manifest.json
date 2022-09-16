@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cloudtronics-app/static/css/main.6e5afc45.css",
-    "main.js": "/cloudtronics-app/static/js/main.da8d9ff5.js",
+    "main.js": "/cloudtronics-app/static/js/main.a21e5c45.js",
     "static/media/Repair.svg": "/cloudtronics-app/static/media/Repair.c3b7e2e477fa727eea5bcdcbeec87054.svg",
     "static/media/Amps.svg": "/cloudtronics-app/static/media/Amps.15ff0faf6cde02105ff7bb5588d20435.svg",
     "static/media/Pump.svg": "/cloudtronics-app/static/media/Pump.32a011468e146fe1ff13996e0a272cee.svg",
@@ -17,10 +17,10 @@
     "static/media/Alert.svg": "/cloudtronics-app/static/media/Alert.55cf1f945c1cfe8a659c2aa455097153.svg",
     "index.html": "/cloudtronics-app/index.html",
     "main.6e5afc45.css.map": "/cloudtronics-app/static/css/main.6e5afc45.css.map",
-    "main.da8d9ff5.js.map": "/cloudtronics-app/static/js/main.da8d9ff5.js.map"
+    "main.a21e5c45.js.map": "/cloudtronics-app/static/js/main.a21e5c45.js.map"
   },
   "entrypoints": [
     "static/css/main.6e5afc45.css",
-    "static/js/main.da8d9ff5.js"
+    "static/js/main.a21e5c45.js"
   ]
 }
